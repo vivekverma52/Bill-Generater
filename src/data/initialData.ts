@@ -8,13 +8,9 @@ export const initialProductLine: ProductLine = {
 
 export const initialInvoice: Invoice = {
   logoWidth: 100,
-  title: '',
   companyName: 'Madan Gupta Vegetables and fruits Supplier',
-  name: '',
   companyAddress: '',
-  companyAddress2: '',
   companyCountry: 'Bhopal',
-  billTo: 'Bill To:',
   clientName: '',
   clientAddress: '',
   clientAddress2: '',
@@ -22,8 +18,6 @@ export const initialInvoice: Invoice = {
   invoiceTitle: '',
   invoiceDateLabel: 'Invoice Date',
   invoiceDate: '',
-  invoiceDueDateLabel: 'Due Date',
-  invoiceDueDate: '',
   productLineDescription: 'Item Description',
   productLineQuantity: 'Qty',
   productLineQuantityRate: 'Rate',
